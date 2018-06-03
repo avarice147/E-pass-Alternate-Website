@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 a:hover {
@@ -40,9 +41,10 @@ header img {
 
 /*** section-a ***/
 
-#section-a img {
+#section-a {
+    background: url("images/backgroundimg.jpg");
     background-size: cover;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-position: center;
     display: block;
     width: 100%;
@@ -52,15 +54,13 @@ header img {
 }
 
 /*** Section-b ***/
-
-
-.together-wrap {
-    background: white;
-    text-align: center;
-    padding: 1em 3em;
-
+#section-b {
+  text-align: center;
 }
 
+#section-b img{
+  border: 15px solid lightgrey;
+}
 #section-b h3 {
     color: purple;
     font-size: 1.5em;
@@ -73,15 +73,9 @@ header img {
     text-transform: lowercase;
 
 }
-#section-b img {
-    height: 150px;
-    width: auto;
-    border-radius: 50%;
-    border: 25px solid lightgrey;
-}
 /*** section-c ***/
 
-.together-wrap2 {
+#section-c {
   background: purple;
   color: #fff;
   text-align: center;
@@ -105,27 +99,17 @@ header img {
 
 /*** footer ***/
 
-.together-wrap3 {
+#section-d {
     background: purple;
     color: #fff;
-    height: 100px;
 }
 
-#section-d {
-    margin-left: 4em;
-    margin-top: 1em;
-}
-
-#section-e {
-    margin-left: 30em;
-    margin-top: 1em;
-}
-#section-e a {
+#section-d a {
     text-decoration: none;
     color: #fff;
 }
 
-#section-e a:hover {
+#section-d a:hover {
     color: orange;
 }
 
