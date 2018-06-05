@@ -118,10 +118,11 @@ header img {
 
 /*** section-a2 ***/
 
- #backgroundimg2 {
+ #section-a2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url("images/backgroundimg2.jpg");
     display: block;
     width: 100%;
     height: 180px;
@@ -208,27 +209,7 @@ header img {
   body {display: none;}
 **************************/
 
-/*** index ***/
-    .together-wrap {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-column-gap: 2em;
 
-      }
-
-      .together-wrap2 {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          grid-auto-rows: auto;
-          padding-right: 5em;
-          padding-bottom: 2em;
-        }
-      .together-wrap3 {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-auto-rows: auto;
-
-          }
   /*** Log In ***/
 
 
