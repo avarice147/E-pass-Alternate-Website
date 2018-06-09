@@ -195,8 +195,26 @@ header img {
 /*** Section-b3 ***/
 
 #section-b3 {
-    text-align: center;
+    border: 1px solid purple;
 }
+#section-b3 form {
+  padding: 2% 25% 2% 25%; 
+}
+
+#borderForm {
+  border: 1px solid purple;
+
+}
+
+
+
+#section-b3 h5 {
+  color: white;
+  background: purple;
+}
+
+
+
 
 
 
