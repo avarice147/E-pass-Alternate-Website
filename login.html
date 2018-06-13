@@ -11,7 +11,7 @@
     <title>E pass | Login Page</title>
      <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="fontawesome-all.min.css">
   </head>
 <body>
 
@@ -20,54 +20,40 @@
 
 <header id="navbar">
     <a href="index.html"><img src="images/epasslogo.png" alt="e pass logo"></a>
-      <h3 class="Header-text"><a href="login.html">Login</a></h3>
+      <h4 class="Header-text"><a href="login.html">Login</a></h4>
 </header>
 
-<!--- Section-a2 --->
+<!--- Section-a2 --->  
 
-<div id="section-a2" class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <h2>Account Log In</h2>
-          <p>To add funds to your E-PASS account with one click, please login to your account below. First time users, click the link below to set up an online account.</p>
+<!-- must make responsive! -->
+
+  <div id="section-a2" class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h2>Account Log In</h2>
+            <p>To add funds to your E-PASS account with one click, please login to your account below. First time users, click the link below to set up an online account.</p>
+        </div>
+        <div id="editShowcase" class="col-xs-12">
+          <a href="#"><img src="images/getepass.png" alt="get E-PASS">
+            <li>Get your E-PASS</a></li>
+        </div>
+        <div id="editShowcase" class="col-xs-12">
+        <a href="#"><img src="images/activateepass2.png" alt="get E-PASS">
+            <li>Activate E-PASS</a></li>
+        </div>
+        <div id="editShowcase" class="col-xs-12">
+          <a href="#"><img src="images/manageepass.png" alt="Activate E-PASS">
+            <li>Manage E-PASS</a></li>
+        </div>
+        <div id="editShowcase" class="col-xs-12">
+            <a href="#"><img src="images/reloadepass.png" alt="Manage E-PASS">
+            <li>Reload E-PASS</a></li>
+        </div>
+
       </div>
-    </div>
   </div>
-</div>
 
-
-<!--- Section-b2 --->
-
-<!--       <div id="section-b2" class="list-bar-2">
-          <nav>
-            <ul>
-
-              <div>
-                <a href="#"><img src="images/getepass.png" alt="get E-PASS">
-                  <li>Get your E-PASS</a></li>
-              </div>
-
-              <div>
-                <a href="#"><img src="images/activateepass2.png" alt="get E-PASS">
-                  <li>Activate E-PASS</a></li>
-              </div>
-
-            <div>
-                <a href="#"><img src="images/manageepass.png" alt="Activate E-PASS">
-                  <li>Manage E-PASS</a></li>
-            </div>
-
-              <div>
-                <a href="#"><img src="images/reloadepass.png" alt="Manage E-PASS">
-                  <li>Reload E-PASS</a></li>
-            </div>
-
-            </ul>
-          </nav>
-      </div>
-
-
-</div> -->
+ 
 <!--- Section-b3 --->
 <div id="section-b3" class="container-fluid">
   <form>
@@ -77,20 +63,20 @@
       </div>
        <div class="form-group">
         <label for="exampleInputEmail1"><span>Email address</span></label>
-          <a href="#" class="float-right">Forgot your Email address?</a>
+          <a href="#" class="float-right" id="editLink">Forgot your Email address?</a>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
        </div>
 
       <div class="form-group">
         <label for="exampleInputPassword1"><span>Password</span></label>
-          <a href="#" class="float-right">Forgot your Password?</a>
+          <a href="#" class="float-right" id="editLink">Forgot your Password?</a>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
       </div>
       
       <div id="checkEdit" class="form-group">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Remember Me</label>
-              <button type="submit" class="btn btn-primary float-right"><!--<i class="fas fa-sign-in-alt">--->Login</i></button>
+              <button type="submit" class="btn btn-primary float-right"><i class="far fa-sign-in-alt">Login</i></button>
           <div>
                  <div>
                    <p>Received an E-PASS in the Reload Lane, at a Service Center or ordered over the phone? <a href="#">Click here</a> to create your new online E-PASS Management Account. </p>
