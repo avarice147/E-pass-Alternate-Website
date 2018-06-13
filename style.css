@@ -17,14 +17,15 @@ header {
   color: #fff;
   width: 100%;
   border-bottom: black 4px solid;
-  max-height: 200px;
-  min-height: 100px;
+  max-height: 100px;
+  min-height: 70px;
 }
 
-header h2 {
+header h3 {
   float: right;
-  padding-right: 2em;
+  padding-right: .5em;
   padding-top: .5em;
+  
 }
 
 header a {
@@ -32,11 +33,17 @@ header a {
   color: #fff;
 }
 
+header a:hover {
+  color: orange;
+
+}
+
 header img {
-    height: 60px;;
+    height: 65px;;
     float: left;
-    padding-left: 1em;
-    padding-top: 1.25em;
+    border-radius: 10%;
+    padding-left: .5em;
+    border: 3px solid purple;
 }
 
 /*** section-a ***/
