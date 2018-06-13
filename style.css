@@ -196,7 +196,13 @@ header img {
 
 #section-b3 {
     border: 1px solid purple;
+
 }
+
+#section-b3 h5 {
+  padding: .5em;
+}
+
 #section-b3 form {
   padding: 2% 25% 2% 25%; 
 }
@@ -206,6 +212,15 @@ header img {
 
 }
 
+div.form-group {
+  padding: 1em;
+}
+
+#checkEdit {
+  margin-left: 1em;
+}
+
+
 
 
 #section-b3 h5 {
@@ -213,6 +228,19 @@ header img {
   background: purple;
 }
 
+#section-b3 p {
+  color: purple;
+  padding-top: 2em;
+
+}
+
+#section-b3 a {
+  color: purple;
+}
+
+span {
+  font-weight: bold;
+}
 
 
 
